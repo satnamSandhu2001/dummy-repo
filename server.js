@@ -10,4 +10,4 @@ setTimeout(() => {
 	app.listen(port, () => {
 		console.log(`Server is running at http://localhost:${port}`);
 	});
-}, 10);
+}, 20 * 1000);
