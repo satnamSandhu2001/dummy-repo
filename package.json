@@ -1,0 +1,22 @@
+{
+  "name": "dummy-repo",
+  "version": "1.0.0",
+  "description": "commit 6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satnamSandhu2001/dummy-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satnamSandhu2001/dummy-repo/issues"
+  },
+  "homepage": "https://github.com/satnamSandhu2001/dummy-repo#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
