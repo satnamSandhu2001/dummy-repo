@@ -3,7 +3,7 @@ function connectDB() {
 
 	setTimeout(() => {
 		console.log('Connected to DB');
-	}, 4000);
+	}, 5000);
 }
 
 module.exports = {

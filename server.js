@@ -1,4 +1,5 @@
 const express = require('express');
+const { connectDB } = require('./db');
 const app = express();
 const port = 7500;
 
@@ -9,7 +10,5 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
 	console.log(`Server is running at http://localhost:${port}`);
 
-	setTimeout(() => {
-		console.log('This message is delayed 10 seconds!');
-	}, 10 * 1000);
+	connectDB();
 });
